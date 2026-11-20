@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data (ne pas versionner les données lourdes)
+data/
+*.csv
+*.h5
+*.pkl
+
+# Modèles
+models/*.h5
+models/*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
